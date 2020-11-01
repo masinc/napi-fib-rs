@@ -1,0 +1,17 @@
+{
+  "name": "fib",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cargo build --release && napi build --release",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "napi-rs": "^0.3.9"
+  }
+}
